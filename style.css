@@ -1,9 +1,14 @@
-.top {
-    height: 2vh;
-    padding: 20px;
+.header {
+  height: 2vh;
+  padding: 20px;
+  margin: 0 auto;
 }
 
-.box {
-    padding: 20px;
-    overflow: auto
+.main {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
 }
