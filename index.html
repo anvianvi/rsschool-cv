@@ -71,10 +71,10 @@
         // and returns the minimal amount of people needed to perform these handshakes.
 
         function getParticipants(handshakes){
-                if(!handshakes) return 1;
+        if(!handshakes) return 1;
                 let sum = 0
                 let n = 0
-                while(handshakes > sum){
+                while(handshakes &gt sum){
                 sum = (n * (n-1) / 2)
                 n++
                 }
