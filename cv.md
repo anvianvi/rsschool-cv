@@ -11,7 +11,12 @@
 [url](https://www.cod(ewars.com/users/anvianvi/badges/micro?theme=light)
 
 ## __About Me__
-I am 29 years old. Recently, I worked as a specialist in the operation and supply of an office in Minsk. In February 2022, my family and I moved to Tashkent. Given all the circumstances, I decided to change the scope of my activities. I hade an interest in FE programming and development for several years and now I want to make it my profession. My goal is to gain knowledge FE development, improve my skills that will help me to find a new job and change my profession during 2022. My hobby is semi-professional sports.
+Hello, my name is Pavel and I am a junior front-end developer.
+I'm currently changing my career dramatically.
+I very impressed by magic that java script allows you to do with the browser window.
+I am currently learning javascript and the React library.
+
+
 
 ## __Skills__
 - HTML
