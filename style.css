@@ -82,7 +82,8 @@ body{
   margin: 0 25px;
 }
 
-.right-container {
+.page-title {
+  margin: 0 0 0 3%;
 }
 
 .git-link{
