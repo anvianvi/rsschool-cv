@@ -10,8 +10,6 @@
 - **GitHub:** [anvianvi](https://github.com/anvianvi)
 - **Telegram** @donajadon
 
-[url](https://www.codewars.com/users/anvianvi/badges/micro?theme=light)
-
 ## **About Me**
 
 Hello, my name is Pavel and I am a front-end developer.
@@ -35,6 +33,8 @@ I'm currently looking for my first job.
 ## **Code Example**
 
 - **codewadrs** [anvianvi](https://www.codewars.com/users/anvianvi)
+  [bage](https://www.codewars.com/users/anvianvi/badges/micro?theme=light)
+
 - **my portfolio** [anvianvi](https://anvianvi.github.io/portfolio/)
 
 ```
