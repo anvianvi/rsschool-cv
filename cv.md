@@ -8,8 +8,9 @@
 - **Phone:** 694668162
 - **Email:** verbipo@gmail.com
 - **GitHub:** [anvianvi](https://github.com/anvianvi)
+- **Telegram** @donajadon
 
-[url](https://www.cod(ewars.com/users/anvianvi/badges/micro?theme=light)
+[url](https://www.codewars.com/users/anvianvi/badges/micro?theme=light)
 
 ## **About Me**
 
@@ -21,10 +22,15 @@ I'm currently looking for my first job.
 
 ## **Skills**
 
-- HTML
+- JavaScript, TypeScript
+- Angular, React
+- RxJs, NgRX
+- Jest
+- Graphql
 - CSS/SCSS/SASS
-- JavaScript? TypeScript
-- Angular/React
+- HTML
+- GIt, Figma
+- Vite, Webpack
 
 ## **Code Example**
 
@@ -32,14 +38,47 @@ I'm currently looking for my first job.
 - **my portfolio** [anvianvi](https://anvianvi.github.io/portfolio/)
 
 ```
-function solution(number){
-  let sum = 0;
-    for(let i=1; i<number; i++) {
-        if(i % 3 === 0 || i % 5 === 0){
-            sum += i;
-        }
+enum BorderColors {
+  Red = "#EB5757",
+  Yellow = "#F2C94C",
+  Green = "#27AE60",
+  Blue = "#2F80ED",
+}
+
+@Directive({
+  selector: "[appPublicationDate]",
+})
+export class PublicationDateDirective {
+  @Input() set appPublicationDate(date: string) {
+    const currentDate = new Date();
+    const publicationDate = new Date(date);
+    const differenceInDays = Math.floor(
+      (currentDate.getTime() - publicationDate.getTime()) / (1000 * 3600 * 24)
+    );
+
+    let borderColor = "";
+
+    if (differenceInDays > 180) {
+      borderColor = BorderColors.Red;
+    } else if (differenceInDays >= 30 && differenceInDays <= 180) {
+      borderColor = BorderColors.Yellow;
+    } else if (differenceInDays >= 7 && differenceInDays < 30) {
+      borderColor = BorderColors.Green;
+    } else {
+      borderColor = BorderColors.Blue;
     }
-    return sum;
+
+    this.renderer.setStyle(
+      this.el.nativeElement,
+      "border-bottom",
+      `5px solid ${borderColor}`
+    );
+  }
+
+  constructor(
+    private el: ElementRef,
+    private renderer: Renderer2
+  ) {}
 }
 
 ```
@@ -60,6 +99,9 @@ Mar 2014 – Mar 2022
 
 - **University:** Institute of Entrepreneurial Activity 2009 – 2013
   Legal support of entrepreneurial activity in small and medium-sized enterprises, manager-economist
+
+- **Courses**
+  Over the past year, I have completed a large number of online courses on the following platforms - RsSchool, LinkedIn Learning, EdX, Coursera.
 
 ## Languages
 
