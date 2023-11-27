@@ -1,0 +1,92 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 3%;
+  line-height: 2em;
+}
+.header {
+  background: #cfcaca;
+}
+.navigation-list {
+  padding: 1%;
+  display: flex;
+  gap: 2%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer {
+  background: #cfcaca;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+.rs-logo {
+  width: 64px;
+  height: 32px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.left-container {
+  color: white;
+  background: #aba7a7;
+  padding: 10px 0;
+}
+
+.myPhoto {
+  background-image: url("./img/myPhoto.jpg");
+  margin: 5% auto;
+  height: 255px;
+  width: 255px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.section-title:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 28%;
+  height: 128%;
+  background-color: #98ef7e;
+}
+.section-title:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  width: 28%;
+  height: 128%;
+  background-color: #98ef7e;
+}
+
+.section-content {
+  margin: 0 25px;
+}
+
+.page-title {
+  margin: 0 0 0 3%;
+}
+
+.git-link{
+  display: flex;
+  align-items: center;
+}
