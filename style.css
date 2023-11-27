@@ -89,3 +89,14 @@ body {
   display: flex;
   align-items: center;
 }
+
+@media (width < 1000px) {
+  .code-example {
+    display: none;
+  }
+}
+@media (width < 600px) {
+  .main {
+    display: block;
+  }
+}
