@@ -45,13 +45,16 @@ body {
   padding: 10px 0;
 }
 
-.myPhoto {
+.my-photo-container {
   width: 255px;
   height: 255px;
   margin: 5% auto;
   border-radius: 50%;
-  background: url(./img/myPhoto.jpg) no-repeat center/contain;
   overflow: hidden;
+
+  .my-photo {
+    width: 100%;
+  }
 }
 
 .section-title {
