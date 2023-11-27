@@ -8,6 +8,7 @@
 - **Phone:** 694668162
 - **Email:** verbipo@gmail.com
 - **GitHub:** [anvianvi](https://github.com/anvianvi)
+- **LinkedIn:** [Pavel v](https://www.linkedin.com/in/pavel-viarbitsky/)
 - **Telegram** @donajadon
 
 ## **About Me**
